@@ -5,21 +5,27 @@
                 
                 
     <meta charset="UTF-8">
-    <title>PSJK LOGS</title>
+    <title>SPRING PJSK</title>
+    <link href="logo.png" rel="icon">
     <style>
         
 
 body {
   background-image: url('background.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: 50%;
   background-clip: border-box;
   background-color: #ffcb83;
   background-size:auto
 
 }
-       
+.logo {
+  position: fixed;
+  margin-left: 68%;
+  scale: 55%;
+  margin-top: 43%;
+  opacity:65%;
+}       
 
 
  .topnav {
@@ -27,13 +33,13 @@ body {
   overflow: hidden;
   z-index: 1;
 }
-.topnav h1 {
+.topnav .first {
   float: left;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 32pt;
+  font-size: 24pt;
   font-family: 'Gotham Black', sans-serif;
                                                 
                                       
@@ -41,18 +47,32 @@ body {
 
 
 }
-.topnav a {
-
-  float: right;
+.topnav .first:hover {
+  float: left;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 50px 16px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 28pt;
+  font-size: 26pt;
   font-family: 'Gotham Black', sans-serif;
-  text-shadow: 2px 2px #000000
+                                                
+                                      
+
+
+
 }
-.topnav a:hover  {
+.topnav .end   {
+
+float: right;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 50px 16px;
+text-decoration: none;
+font-size: 28pt;
+font-family: 'Gotham Black', sans-serif;
+text-shadow: 2px 2px #000000
+}
+.topnav .end:hover  {
 margin: auto;
 float: right;
 color: rgb(255, 255, 255);
@@ -63,6 +83,51 @@ font-size: 29pt;
 font-family: 'Gotham Black', sans-serif;
 text-shadow: 2px 2px #006eff
 }
+.topnav .mid   {
+
+float: left;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 50px 16px;
+text-decoration: none;
+font-size: 12pt;
+font-family: 'Gotham Black', sans-serif;
+text-shadow: 2px 2px #000000
+}
+.topnav .mid:hover  {
+
+float: left;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 40px 16px;
+text-decoration: none;
+font-size: 14pt;
+font-family: 'Gotham Black', sans-serif;
+text-shadow: 2px 2px #006eff
+}
+
+.head {
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Gotham Black', sans-serif;
+    overflow: hidden;
+    width: 43%;
+   font-size: 44pt;
+   color: #ffffff;
+   text-shadow: 2px 2px #cccccc  
+}
+.head:hover {
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Gotham Black', sans-serif;
+    overflow: hidden;
+    width: 43%;
+   font-size: 44pt;
+   color: #ffffff;
+   text-shadow: 2px 2px #000000  
+}
 .para {
     margin: auto;
     text-align: center;
@@ -71,6 +136,9 @@ text-shadow: 2px 2px #006eff
     overflow: hidden;
     width: 43%;
     min-height:207px;
+    font-size: 24pt;
+   color: #000000;
+   font-family: 'Gotham Black', sans-serif;
     
 }
 .para img {
@@ -81,25 +149,54 @@ text-shadow: 2px 2px #006eff
     scale: 150%;
     border: 5px solid black;
 }
+.para span {
+  color: #242424;
+}
+.para:hover {
+  scale: 110%;
+}
+.para .paraj {
+  font-size: 90pt;
+  color: #8abdff;
+}
+.para .paraj:hover {
+  font-size: 90pt;
+  color: #197dff;
+}
     </style>
 </head>
 <body>
-
+<div class="logo">
+  <img src="logo.png">
+</div>
     <div class="topnav">
-        <h1><b>PJSK DUMB LOGS</b></h1>
-        <a href="https://github.com/Megamer-studios/" target="_blank">Developer</a>
+      <a class="first" href="index.html"><h1><b>SPRING PJSK</b></h1></a>
+      <a class="mid" href="logs.html"><h1><b>DUMB LOGS</b></h1></a>
+      <a class="mid" href="staff.html"><h1><b>STAFF TEAM</b></h1></a>
+      <a class="end" href="https://github.com/Megamer-studios/" target="_blank">Developer</a>
+      </div>
+      <div class="head">
+        <h1>Spring PJSK</h1>
+        <h1 style="color: #8abdff; font-size: 24pt;">A Discord server</h1>
       </div>
       <div class="para">
-        <a href="s1.html"><img src="imgs/s1.png"></a>
+        <h1>Community</h1>
+        <span>Spring Project Sekai offers a wide variety of people to talk to. You can Communicate with lots of people and make friends.</span>
       </div>
       <div class="para">
-        <a href="s2.html"><img src="imgs/s2.png"></a>
+        <h1>Fandoms</h1>
+        <span>There are lots of channels dedicated to specific fandoms where you can share your experiences with.</span>
       </div>
       <div class="para">
-        <a href="s3.html"><img src="imgs/s3.png"></a>
+        <h1>Partnerships</h1>
+        <span>Currently we aren't partnered with anyone. We do plan to in near future.</span>
       </div>
       <div class="para">
-        <a href="s4.html"><img src="imgs/s4.png"></a>
+       <a href="https://discord.gg/JSyUbG4SBc" target="_blank"> <h1 class="paraj" >Join</h1></a>
+       </div>
+      <div class="para">
+        <iframe src="https://discord.com/widget?id=1223483117843779584&theme=dark" width="800" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
       </div>
+      
 </body>
 </html>

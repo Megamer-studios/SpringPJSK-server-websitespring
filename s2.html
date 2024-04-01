@@ -20,20 +20,26 @@ body {
 
 }
        
+.logo {
+  position: fixed;
+  margin-left: 68%;
+  scale: 55%;
+  margin-top: 43%;
+  opacity:65%;
+}   
 
-
- .topnav {
+.topnav {
   background-color: #ffc933;
   overflow: hidden;
   z-index: 1;
 }
-.topnav h1 {
+.topnav .first {
   float: left;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 32pt;
+  font-size: 24pt;
   font-family: 'Gotham Black', sans-serif;
                                                 
                                       
@@ -41,18 +47,32 @@ body {
 
 
 }
-.topnav a {
-
-  float: right;
+.topnav .first:hover {
+  float: left;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 50px 16px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 28pt;
+  font-size: 26pt;
   font-family: 'Gotham Black', sans-serif;
-  text-shadow: 2px 2px #000000
+                                                
+                                      
+
+
+
 }
-.topnav a:hover  {
+.topnav .end   {
+
+float: right;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 50px 16px;
+text-decoration: none;
+font-size: 28pt;
+font-family: 'Gotham Black', sans-serif;
+text-shadow: 2px 2px #000000
+}
+.topnav .end:hover  {
 margin: auto;
 float: right;
 color: rgb(255, 255, 255);
@@ -63,27 +83,27 @@ font-size: 29pt;
 font-family: 'Gotham Black', sans-serif;
 text-shadow: 2px 2px #006eff
 }
-.topnav .ye {
-
-    float: left;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 5px 16px;
-  text-decoration: none;
-  font-size: 32pt;
-  font-family: 'Gotham Black', sans-serif;
-                                                
-}
-.topnav .ye:hover {
+.topnav .mid   {
 
 float: left;
 color: rgb(255, 255, 255);
 text-align: center;
-padding: 5px 16px;
+padding: 50px 16px;
 text-decoration: none;
-font-size: 32pt;
+font-size: 12pt;
 font-family: 'Gotham Black', sans-serif;
-                                            
+text-shadow: 2px 2px #000000
+}
+.topnav .mid:hover  {
+
+float: left;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 40px 16px;
+text-decoration: none;
+font-size: 14pt;
+font-family: 'Gotham Black', sans-serif;
+text-shadow: 2px 2px #006eff
 }
 .para {
     margin: auto;
@@ -100,11 +120,15 @@ font-family: 'Gotham Black', sans-serif;
     </style>
 </head>
 <body>
-
+  <div class="logo">
+    <img src="logo.png">
+  </div>
+  
     <div class="topnav">
-        <h1><b>PJSK DUMB LOGS</b></h1>
-        <a class="ye" href="index.html"><h1><b>Return</b></h1></a>
-        <a class="te" href="https://github.com/Megamer-studios/" target="_blank">Developer</a>
+      <a class="first" href="index.html"><h1><b>SPRING PJSK</b></h1></a>
+      <a class="mid" href="logs.html"><h1><b>DUMB LOGS</b></h1></a>
+      <a class="mid" href="staff.html"><h1><b>STAFF TEAM</b></h1></a>
+      <a class="end" href="https://github.com/Megamer-studios/" target="_blank">Developer</a>
       </div>
       <div class="para">
     <img src="imgs/s2.png">
