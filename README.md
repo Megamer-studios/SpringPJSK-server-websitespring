@@ -1,3 +1,3 @@
 # spring
 
-basically a log of every dumb message sent in the server
+introduction and stuff
